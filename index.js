@@ -1,14 +1,13 @@
 
 console.log("--- Questions 1 & 2: Variables and Data Types ---");
 
-// Declaring and assigning variables with various data types
-let myName = "Alex";             // String
-let myAge = 22;                  // Number
-let mySchool = "Tech University";// String
+let myName = "Alex";             
+let myAge = 22;                  
+let mySchool = "Tech University";
 
-let studentName = "Sarah Connor"; // String
-let score = 95;                   // Number
-let isPresent = true;             // Boolean
+let studentName = "Sarah Connor"; 
+let score = 95;                   
+let isPresent = true;             
 
 // Displaying the variables
 console.log("My Name:", myName);
@@ -17,12 +16,9 @@ console.log("My School:", mySchool);
 console.log("Student Name:", studentName);
 console.log("Score:", score);
 console.log("Is Present:", isPresent);
-console.log("\n"); // Adds a blank line for clean spacing in the console
+console.log("\n"); 
 
 
-// ==========================================
-// Question 3: Operators
-// ==========================================
 console.log("--- Question 3: Operators ---");
 
 let price = 5000;
@@ -36,9 +32,6 @@ console.log("Division (price / quantity):", price / quantity);
 console.log("\n");
 
 
-// ==========================================
-// Question 4: Strings and Template Literals
-// ==========================================
 console.log("--- Question 4: Template Literals ---");
 
 let firstName = "David";
@@ -49,13 +42,9 @@ let age = 20;
 console.log(`My name is ${firstName} ${lastName} and I am ${age} years old.`);
 console.log("\n");
 
-
-// ==========================================
-// Question 5: Conditional Statements
-// ==========================================
 console.log("--- Question 5: Conditional Statements (Grading System) ---");
 
-let testScore = 75; // You can change this number to test different outcomes
+let testScore = 75; 
 console.log(`Testing grading system with a score of: ${testScore}`);
 
 if (testScore >= 70) {
